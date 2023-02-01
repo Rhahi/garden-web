@@ -1,0 +1,34 @@
+baseURL = 'https://rhahi.github.io/'
+languageCode = 'en-us'
+title = 'Step by step'
+theme = 'digitalgarden'
+
+[Params]
+description = "A space for devblog and notes"
+enableSearch = true
+
+[markup]
+[markup.highlight]
+style =  'dracula'
+
+[menu]
+
+[[menu.main]]
+name = 'Devlog'
+params.header = true
+weight = 10
+
+    [[menu.main]]
+    name = 'Rust22'
+    url = '/rust22'
+    weight = 15
+
+[[menu.main]]
+name = 'Cheatsheet'
+params.header = true
+weight = 20
+
+[[menu.main]]
+    name = 'Linux'
+    url = '/linux'
+    weight = 21

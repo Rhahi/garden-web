@@ -1,0 +1,6 @@
+node_modules/
+*.lock
+public/
+resources/
+static/css/main.css
+package-lock.json
